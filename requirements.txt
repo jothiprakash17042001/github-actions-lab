@@ -1,4 +1,2 @@
 flask
 pytest
-flake8
-black
