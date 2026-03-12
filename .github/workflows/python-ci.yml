@@ -15,7 +15,7 @@ jobs:
 
     steps:
 
-    - name: Checkout code
+    - name: Checkout repository
       uses: actions/checkout@v4
 
     - name: Setup Python
@@ -32,10 +32,10 @@ jobs:
       run: |
         pytest
 
-    - name: Run flake8 (Lint Check)
+    - name: Run flake8 (Lint check)
       run: |
         flake8 .
 
-    - name: Run black (Format Check)
+    - name: Run black (Format check)
       run: |
         black --check .
