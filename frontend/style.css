@@ -97,17 +97,3 @@ body {
     grid-column: span 2;
 }
 
-/* New styles for the container and title */
-
-.container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.title {
-    font-size: 28px;
-    font-weight: bold;
-    margin-bottom: 20px;
-}
